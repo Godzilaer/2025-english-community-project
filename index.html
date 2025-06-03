@@ -4,34 +4,84 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Document</title>
-    <link rel="icon" type="image/x-icon" href="/images/placeholder.png">
+    <title>The Coding Club</title>
+    <link rel="icon" href="images/cc_logo.png" type="image/favicon">
 
     <!--Bootstrap-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">  
-    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <main class="container-fluid">
-        <section class="text-center">
-            <h1>2025 English Community Project</h1>
-            <h2>Introduction</h2>
-            <p>The DSHS Coding Club meets weekly. We share our passion for programming and knowledge to help improve our skills. We also compete in hackathons (coding competitions) together.</p>
-        </section>
-
-        <section class="d-flex">
-            <div class="content-container w-50 text-center" id="text-container">
-                <p>image description</p>
+    <section class="introduction d-flex justify-content-center mb-2 pb-5">
+        <div class="col-md-10 d-flex align-items-center flex-column">
+            <h1 class="display-3 fw-bold text-center mt-4 bg p-3 d-flex align-items-center">The <img id="coding-club-logo" src="images/cc_logo_text.png"></h1>
+            <figure class="p-4 col-8 bg mt-2" id="top-quote">
+                <blockquote class="blockquote">
+                    <span class="quote-mark">&ldquo;</span>
+                    <p class="quote-text ms-4">It's a space where creativity meets problem-solving; where people can work on their passion projects or learn something new in technology.</p>
+                </blockquote>
+                <figcaption class="blockquote-footer ms-4">
+                    Shantanu Tiwaru, Coding Club President
+                </figcaption>
+            </figure>
+            <div class="bg p-4">
+                <h2 class="text-center" id="intro-h">Introduction</h2>
+                <p class="lead mt-0" id="intro-p">My interest in programming began early, and my curiosity quickly grew. However, I couldn’t find where to share my passion with the world. That is, until I joined the DSHS Coding Club. Meeting weekly, we share our passion for programming and knowledge to help improve our skills. We also compete in hackathons (coding competitions) together. It opened up a new world as I was unaware of all the other people sharing my interests and the numerous opportunities waiting for me. Through complementing each other’s skills and sharing opportunities, everyone’s individual growth is significantly accelerated. We always have a lot of fun, whether it's crafting a master project or throwing together a goofy app for the heck of it. That’s the true beauty of coding: it's a form of art in a way where no one can tell you what to do. Past coding, the club is a safe space where we are all friends. We talk about schoolwork and classes, and whatever comes to our minds. Many of us are members of other clubs, such as the Science Olympiad club, which we also talk about and plan for. Having all these different discussions keeps our minds open and alive with creativity. It also prevents us from burning out by constantly being focused on coding. This is what characterizes a genuine and beneficial community. The distinction is defined when people don't have to change to fit into a community, but the community changes to accommodate them and everyone else instead.</p>
             </div>
-        
-            <div class="content-container w-50 text-center" id="image-container">
-                <img src="/images/placeholder.png" />
+            
+        </div>
+    </section>
+
+    <section class="photo-essay-section">
+        <div class="container-fluid p-0">
+            <div class="row g-0">
+                <div class="col-6 text-column">
+                    <div class="text-block" data-image="1">
+                        <p>Our space changes frequently as we travel to hackathons. We can collaborate online without even needing to meet in person. But, room 110A is still our home. It has everything we need: enough tables and chairs, a screen, and many whiteboards. Meeting in person is still different than online: it's part of the real human experience. Planning and working together is much easier when you can see the other person.</p>
+                    </div>
+
+                    <div class="text-block" data-image="2">
+                        <p>This group photo was taken at the club’s Halloween event. Our events allow even people who are unfamiliar with coding to join our community. We strive to be open like this and accept everyone. This is another important part about our club: the many different choices for what you want to do. You could come and just chat, or maybe create art for a game/website, or code something, or help plan a project.</p>
+                    </div>
+
+                    <div class="text-block" data-image="3">
+                        <p>The essence of programming, at its most basic level, is manipulating bits strategically to create a desired outcome. However, often overlooked when people think about programming is the extensive thinking and planning beforehand to create a solution that is effective and efficient. Drawing out your plan, whether it's just for yourself or to share with your team, is an essential step before diving into the problem. This mind-gateway makes it an important artifact to us.</p>
+                    </div>
+
+                    <div class="text-block" data-image="4">
+                        <p>Debugging is the process by which one fixes unexpected outputs or errors that occur within a program. Here, we have Ben (red sweater) pointing out a possible issue in Neil’s code. While bugs are incredibly frustrating, squashing them is how we improve. Especially beneficial is when we work together to fix them, as whoever helped you also gains valuable experience and learns a little about your coding style, and can apply this to their work.</p>
+                    </div>
+
+                    <div class="text-block" data-image="5">
+                        <p>Shantanu, the president of the coding club, walks by in front of Stanley and Piku. It adds to the essence of the room when we’re having a discussion, and you have Shantanu pacing the room, throwing a marker up, and catching it. When you see him doing this, you know he’s in a deep state of thinking. Here, we were brainstorming ideas for what we wanted the club to be like next year.</p>
+                    </div>
+
+                    <div class="text-block" data-image="6">
+                        <p>Piku is a junior in the coding club. We were both at a hackathon called Hacknight in Cambridge on July 1st, 2025. Neither of us anticipated seeing each other there, so it was certainly a surprise. It was a lot of fun sharing our projects. Piku had stayed overnight while I had arrived in the morning. This was taken at the end of the event.</p>
+                    </div>
+                </div>
+
+                <!-- Image Column -->
+                <div class="col-6 image-column">
+                    <img src="images/place.jpg" alt="Room 110A" class="essay-image active" data-image="1">
+                    <img src="images/group.jpg" alt="Group" class="essay-image" data-image="2">
+                    <img src="images/artifact.jpg" alt="Whiteboard" class="essay-image" data-image="3">
+                    <img src="images/debugging.jpg" alt="Debugging" class="essay-image" data-image="4">
+                    <img src="images/shantanu.jpg" alt="Shantanu walking infront of 2 members" class="essay-image" data-image="5">
+                    <img src="images/piku.jpg" alt="Piku" class="essay-image" data-image="6">
+                </div>
             </div>
-        </section>
-    </main>
+        </div>
+    </section>
 
-    
-    
+    <footer class="footer pt-5 pb-4 text-center">
+        <h2>A Photo Essay for 9th Grade English Class, 2025</h2>
+        <h3>Dover-Sherborn High School</h3>
+        <p>Created by: Ethan Filip</p>
+    </footer>
 
+    <script src="scroll.js" type="text/javascript"></script>
 </body>
 </html>

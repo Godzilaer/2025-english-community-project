@@ -1,0 +1,100 @@
+:root {
+    --shadow: 2px 0 10px rgba(0,0,0,0.1);
+    --light-blue: rgb(229, 233, 241);
+}
+
+body {
+    font-family: 'Georgia', serif;
+    line-height: 1.6;
+}
+
+.introduction {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    box-shadow: var(--shadow);
+}
+
+.photo-essay-section {
+    min-height: 100vh;
+}
+
+.text-column {
+    z-index: 2;
+    padding: 2rem;
+    box-shadow: var(--shadow);
+}
+
+.image-column {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    overflow: hidden;
+    box-shadow: var(--shadow);
+}
+
+.essay-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 0.8s ease-in-out;
+}
+
+.essay-image.active {
+    opacity: 1;
+}
+
+.text-block {
+    min-height: 100vh;
+    padding: 3rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text-block p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 1.5rem;
+}
+
+.quote-mark {
+    position: relative;
+    font-family: 'Garamond', serif;
+    font-size: 3rem;
+    color: #888;   
+    top: 2.5rem;
+}
+
+#top-quote blockquote {
+    margin-top: -3rem;
+}
+
+#intro-p {
+    text-indent: 1;
+}
+
+.introduction {
+    background-image: url('images/debugging.jpg');
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+.bg {
+    background-color: var(--light-blue);
+    border-radius: 15px;
+    opacity: 0.9;
+}
+
+footer {
+    background-color: var(--light-blue);
+}
+
+#coding-club-logo {
+    height: 95px;
+    margin-left: 15px;
+}
